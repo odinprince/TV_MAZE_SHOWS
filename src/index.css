@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.home_page_content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 150px;
+  gap:20px;
+  
+}
+.pagination_body{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.ticket_book{
+  padding: 8px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+
+}
+.Booking-form{
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  padding: 25px 45px;
+  margin: 15px 15px;
+  
+}
+.Booking-form ul{
+  list-style: none;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.Booking-form ul li{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.Booking-form div{
+  font-size: 24px;
+}
+.Booking-form ul li label{
+  margin-top: 10px;
+  
+}
+.Booking-form ul li input{
+  padding: 5px 15px;
+  border-radius: 8px;
+
+}
+.Booking-form ul li select{
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+.Booking-form ul button{
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
